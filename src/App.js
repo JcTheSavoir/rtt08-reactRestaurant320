@@ -1,5 +1,5 @@
 import './App.css';
-import Menu from './components/Menu';
+import Menus from './components/Menus';
 import menu from './models/menu'
 import Navbar from './components/Navbar';
 import { useState } from 'react';
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div className='topTitle'>Welcome to The Garden Of Olives</div>
       <Navbar navItems={menu}/>
-      <Menu />
+      <Menus foodItems={menu}/>
 
 
     </div>
