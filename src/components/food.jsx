@@ -1,8 +1,10 @@
-const food = () => {
+const Food = () => {
   return (
-    <div>
+    <div className="foodContainer">
+
         
+
     </div>
   )
 }
-export default food
+export default Food

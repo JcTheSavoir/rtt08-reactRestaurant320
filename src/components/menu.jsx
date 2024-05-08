@@ -1,8 +1,12 @@
-const menu = () => {
+import Food from "./Food"
+
+const Menu = () => {
   return (
-    <div>
+    <div className="menuContainer">
         
+        <Food />
+
     </div>
   )
 }
-export default menu
+export default Menu;
