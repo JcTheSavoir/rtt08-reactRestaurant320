@@ -3,7 +3,7 @@ const menu = [
         type: "desserts",
         items:[
             {
-                name:"Choclate Lasagna", 
+                name:"Chocolate Lasagna", 
                 calories: "980 cal",
                 imageURL: "https://media.olivegarden.com/en_us/images/marketing/Chocolate_Lasagna_590X365.jpg",
                 description: "Decadent layers of chocolate cake, creamy chocolate mousse, and a delicate layer of crushed wafers. Topped with chocolate sauce.",

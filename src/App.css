@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.topTitle{
+  background-color: black;
+  width: 100%;
+  color: rgb(5, 186, 60);
+  margin: 0;
+  height: 1.5em;
+}
+
+.navbarContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+.eachButton{
+  border-radius: 10;
+}

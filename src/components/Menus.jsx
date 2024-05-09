@@ -5,7 +5,7 @@ const Menus = (props) => {
   return (
     <div className="menusContainer">
         {props.foodItems.map((foodItem, index) =>
-          <Food key={index} eachFood={foodItem.items[0]}/>
+          <Food key={index} eachFood={foodItem.items} foodType={foodItem.type}/>
         )}
     </div>
   )

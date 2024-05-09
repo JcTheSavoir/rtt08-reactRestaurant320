@@ -10,7 +10,7 @@ function App() {
   const [menuData, setMenuData] = useState(menu);
   return (
     <div className="App">
-      <div className='topTitle'>Welcome to The Garden Of Olives</div>
+      <h1 className='topTitle'>Welcome to The Garden Of Olives</h1>
       <Navbar navItems={menu}/>
       <Menus foodItems={menu}/>
 
