@@ -2,9 +2,9 @@ const Food = (props) => {
   console.log(props.eachFood)
   console.log(props.eachFood[0].imageURL)
   return (
-    <div className="foodCategoryContainer">
+    <>
       {props.eachFood.map((item, index) => 
-        <div className="specificFoodContainer" key={index}>
+        <div className="insideFoodContainer" key={index}>
           <div className="foodName">{item.name}</div>
           <div className="foodDescription">{item.description}</div>
           <div className="foodCalories">{item.calories}</div>
@@ -13,10 +13,7 @@ const Food = (props) => {
           
         </div>
       )}
-
-  
-
-    </div>
+  </>
   )
 }
 export default Food

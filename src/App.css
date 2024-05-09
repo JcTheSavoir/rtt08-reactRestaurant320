@@ -52,5 +52,37 @@
   margin: 1em 0;
 }
 .eachButton{
-  border-radius: 10;
+  border-radius: 40px;
+  margin: 0 1em;
+  height: 2em;
+}
+.menusContainer{
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+}
+.foodCategoryContainer{
+  border: solid rgb(0, 0, 0);
+  border-radius: 100px;
+  margin: 0 1em 2em 1em;
+  overflow:hidden;
+}
+.foodTypeTitle{
+  background-color: rgb(104, 39, 183);
+  color: rgb(108, 254, 123);
+  margin: 0;
+  padding: 1em;
+}
+.specificFoodContainers{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.foodImg{
+  max-width: 33vw;
+}
+.insideFoodContainer{
+  /* max-width: 50%; */
+  min-height: 50%;
+  /* min-width: none; */
 }
